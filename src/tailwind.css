@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  * {
+    @apply relative box-border scroll-smooth bg-inherit;
+  }
+  #_next {
+    @apply relative;
+  }
+}
